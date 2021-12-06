@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Expandable listview</string>
+
+    <string-array name="Abbrivation_short">
+        <item>Ave.</item>
+        <item>Blvd.</item>
+        <item>Cyn.</item>
+        <item>Dr.</item>
+        <item>Ln.</item>
+        <item>Rd.</item>
+        <item>St.</item>
+        <item>E </item>
+        <item>N</item>
+        <item>NE</item>
+        <item>NW</item>
+        <item>S</item>
+        <item>SE</item>
+        <item>SW</item>
+    </string-array>
+        <string-array name="Abbrivation_details">
+        <item>   - Avenue CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item>- Boulevard CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item> - Canyon CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item> - Drive CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item> - Lane CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item> - Road CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item> - Street CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item>- east CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item> - north CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item>- northeast CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item>- northwest CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item> - south CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item>- southeast CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+        <item>- southwest CalyxOS is an Android mobile operating system that puts privacy and security into the hands of everyday users. Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal.</item>
+
+</string-array>
+    </resources>
