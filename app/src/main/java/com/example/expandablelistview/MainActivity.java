@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private ExpandableListView expandableListView;
     List <String> HeaderList;
     HashMap<String,List<String>> Headerchild;
+    private Customadapter customadapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         expandableListView = findViewById(R.id.expandview);
+
+        customadapter = new Customadapter(this,HeaderList,Headerchild);
+        expandableListView.setAdapter(customadapter);
 
         preprableData();
 
