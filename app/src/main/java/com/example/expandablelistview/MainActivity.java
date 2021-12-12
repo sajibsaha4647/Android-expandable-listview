@@ -14,19 +14,19 @@ public class MainActivity extends AppCompatActivity {
     private ExpandableListView expandableListView;
     List <String> HeaderList;
     HashMap<String,List<String>> Headerchild;
-    private Customadapter customadapter;
+    private CustomAdaptar customadapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        preprableData();
         expandableListView = findViewById(R.id.expandview);
 
-        customadapter = new Customadapter(this,HeaderList,Headerchild);
+        customadapter = new CustomAdaptar(this,HeaderList,Headerchild);
         expandableListView.setAdapter(customadapter);
 
-        preprableData();
 
     }
 
