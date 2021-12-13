@@ -3,7 +3,9 @@ package com.example.expandablelistview;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ExpandableListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,10 +25,41 @@ public class MainActivity extends AppCompatActivity {
 
         preprableData();
         expandableListView = findViewById(R.id.expandview);
-
         customadapter = new CustomAdaptar(this,HeaderList,Headerchild);
         expandableListView.setAdapter(customadapter);
 
+        expandableListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
+            @Override
+            public boolean onGroupClick(ExpandableListView expandableListView, View view, int i, long l) {
+
+                String groupName = HeaderList.get(i);
+
+                Toast.makeText(MainActivity.this,groupName,Toast.LENGTH_LONG).show();
+
+                return false;
+            }
+        });
+
+        expandableListView.setOnGroupCollapseListener(new ExpandableListView.OnGroupCollapseListener() {
+            @Override
+            public void onGroupCollapse(int i) {
+                String groupname = HeaderList.get(i);
+                Toast.makeText(MainActivity.this,groupname + "is collups",Toast.LENGTH_LONG).show();
+            }
+        });
+
+
+        expandableListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView expandableListView, View view, int i, int i1, long l) {
+
+                String ChildString = Headerchild.get(HeaderList.get(i)).get(i1);
+                Toast.makeText(MainActivity.this,ChildString + "ChildString",Toast.LENGTH_LONG).show();
+
+                return false;
+
+            }
+        });
 
     }
 
